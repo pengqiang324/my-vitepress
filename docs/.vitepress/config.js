@@ -1,38 +1,38 @@
 export default {
-    title: 'application-theme-ui', //站点标题
-    description: '一个vue3组件库',//mate标签description，多用于搜索引擎抓取摘要
+    title: 'Application-Theme', //站点标题
+    description: '微前端业务组件UI',//mate标签description，多用于搜索引擎抓取摘要
     themeConfig: {
-        siteTitle: "application-theme",
+        siteTitle: "Application-Theme",
         logo: "/logo.png",
         nav: [
             { text: '博客', link: '/articles/组件库环境搭建' },
-            { text: "Guide", link: "/guide/" },
-            { text: "GuideTest", link: "/guide/test" },
-            { text: "gitee", link: "https://gitee.com/geeksdidi" },
-            {
-                text: "Drop Menu",
-                items: [
-                    { text: 'Item A', link: '/item-1' },
-                    { text: 'Item B', link: '/item-2' }
-                ]
-            },
-            {
-                text: "Drop Menu",
-                items: [
-                    {
-                        items: [
-                            { text: "Item A1", link: "/item-A1" },
-                            { text: "Item A2", link: "/item-A2" },
-                        ],
-                    },
-                    {
-                        items: [
-                            { text: "Item B1", link: "/item-B1" },
-                            { text: "Item B2", link: "/item-B2" },
-                        ],
-                    }
-                ]
-            }
+            { text: "指南", link: "/guide/" },
+            // { text: "GuideTest", link: "/guide/test" },
+            // { text: "gitee", link: "https://gitee.com/geeksdidi" },
+            // {
+            //     text: "Drop Menu",
+            //     items: [
+            //         { text: 'Item A', link: '/item-1' },
+            //         { text: 'Item B', link: '/item-2' }
+            //     ]
+            // },
+            // {
+            //     text: "Drop Menu",
+            //     items: [
+            //         {
+            //             items: [
+            //                 { text: "Item A1", link: "/item-A1" },
+            //                 { text: "Item A2", link: "/item-A2" },
+            //             ],
+            //         },
+            //         {
+            //             items: [
+            //                 { text: "Item B1", link: "/item-B1" },
+            //                 { text: "Item B2", link: "/item-B2" },
+            //             ],
+            //         }
+            //     ]
+            // }
         ],
         sidebar: {
             '/articles': [
@@ -58,6 +58,21 @@ export default {
                     ]
                 }
             ], 
+            "/guide": [
+                {
+                    text: "基础",
+                    items: [
+                        {
+                        text: "安装",
+                        link: "/guide/",
+                        },
+                        {
+                            text: "快速开始",
+                            link: "/guide/quickstart",
+                        },
+                    ]
+                }
+            ]
         },
         socialLinks: [
             { icon: "github", link: "https://gitee.com/geeksdidi" },
