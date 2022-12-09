@@ -12,9 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "application-theme-plus": "^1.2.5",
+    "application-theme-plus": "1.2.6",
     "element-plus": "^2.2.26",
-    "vitepress": "1.0.0-alpha.29"
+    "vitepress": "1.0.0-alpha.29",
+    "vitepress-theme-demoblock": "^2.0.1"
   },
   "eslintConfig": {
     "rules": {

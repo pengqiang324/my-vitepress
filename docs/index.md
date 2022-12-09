@@ -6,9 +6,9 @@ hero:
     name: Application-Theme
     text: 赞友后台管理组件库
     tagline: 微前端业务组件
-    image:
-        src: /logo.png
-        alt: application-theme
+    # image:
+    #     src: /logo.png
+    #     alt: application-theme
     actions:
         - theme: brand
           text: 快速开始
@@ -27,7 +27,5 @@ features:
   - icon: 🛠️
     title: 按需引入
     details: 直接支持按需引入无需配置任何文件
-
-footer: MIT Licensed | Copyright © 2019-present pengqiang
 
 ---
